@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" type="text/html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Виселица</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		@@include("_header.html")
+
+		<main>
+			<h2>"Игра в города" против компьютера</h2>
+			<p>Введите название города. Например: Москва</p>
+			<p class="player1 active">Сейчас ход <span>игрока №1</span></p>
+			<p class="computer">Сейчас ход <span>игрока №2</span></p>
+			<input id="input" type="text" placeholder="Введите название города">
+			<div id="message"></div>
+			<p class="result"></p>
+		</main>
+
+		@@include("_footer.html")
+	</div>
+	<script src="js/script.min.js"></script>
+
+</body>
+
+</html>

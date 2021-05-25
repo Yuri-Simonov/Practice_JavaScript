@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" type="text/html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Виселица</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		@@include("_header.html")
+
+		<main>
+			<div id="container" class="container">
+				<div class="input"><input id="input" type="text" placeholder="Нажмите на любую клавишу"></div>
+				<p class="mess">Вы ввели: <span id="span"></span></p>
+				<p class="result">Результат: </p>
+				<div class="firstline">
+					<p class="numb">1</p>
+					<p class="numb">2</p>
+					<p class="numb">3</p>
+					<p class="numb">4</p>
+					<p class="numb">5</p>
+					<p class="numb">6</p>
+					<p class="numb">7</p>
+					<p class="numb">8</p>
+					<p class="numb">9</p>
+					<p class="numb">0</p>
+
+				</div>
+				<div class="secondline">
+					<p class="math">/</p>
+					<p class="math">*</p>
+					<p class="math">+</p>
+					<p class="math">-</p>
+					<p class="equal">=</p>
+					<p class="reset">Сброс</p>
+				</div>
+				<div class="thirdline">
+					<p class="third">Ваш последний оператор: </p>
+					<p class="operator"></p>
+
+				</div>
+
+			</div>
+		</main>
+
+		@@include("_footer.html")
+	</div>
+	<script src="js/script.min.js"></script>
+
+</body>
+
+</html>

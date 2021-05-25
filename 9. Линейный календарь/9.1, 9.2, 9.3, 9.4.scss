@@ -1,0 +1,40 @@
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.container {
+	max-width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+}
+.numbers {
+	display: flex;
+}
+p {
+	& + & {
+		margin-left: 15px;
+	}
+}
+
+.red {
+	color: red;
+}
+
+.data {
+	font-weight: 500;
+	color: blue;
+}
+
+div {
+	margin: 10px;
+}
+.prev,
+.next {
+	color: green;
+	font-weight: 700;
+	text-decoration: underline;
+}

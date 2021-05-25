@@ -1,0 +1,36 @@
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.container {
+	max-width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+}
+#parent {
+	text-align: center;
+}
+#parent > * {
+	margin-bottom: 10px;
+}
+
+#timer {
+	font-size: 18px;
+}
+#text {
+	font-size: 17px;
+	font-style: italic;
+}
+
+button {
+	padding: 5px 10px;
+	font-size: 15px;
+	cursor: pointer;
+}
+button:not(.active) {
+	display: none;
+}

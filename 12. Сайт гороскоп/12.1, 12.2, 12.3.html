@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" type="text/html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Виселица</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		@@include("_header.html")
+
+		<main>
+			<p>Чтобы узнать свой гороскоп, введите дату своего рождения в формате: месяц.день</p>
+			<p>Например: 05.26</p>
+			<input class="big" id="input" type="text" placeholder="Введите интересующий вас тег">
+			<form action="" class="radios">
+				<p><input id="input11" name="1" type="radio" checked value="today">Сегодня</p>
+				<p><input id="input22" name="1" type="radio" value="tomorrow">Завтра</p>
+				<p><input id="input33" name="1" type="radio" value="after tomorrow">После завтра</p>
+			</form>
+
+			<p class="result__goroscop"></p>
+		</main>
+
+		@@include("_footer.html")
+	</div>
+	<script src="js/script.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.container {
+	max-width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#input {
+	width: 100%;
+}
+.player1,
+.player2 {
+	display: none;
+}
+.player1.active {
+	display: block;
+	span {
+		color: red;
+	}
+}
+.player2.active {
+	display: block;
+	span {
+		color: rgb(43, 255, 0);
+	}
+}

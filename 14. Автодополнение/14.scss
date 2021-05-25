@@ -1,0 +1,41 @@
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.container {
+	max-width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+}
+#parent {
+	position: relative;
+}
+#elem {
+	width: 100%;
+	padding: 5px;
+	font-size: 18px;
+}
+
+#parent ul {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: white;
+}
+#parent li {
+	border: 1px solid gray;
+	font-size: 18px;
+	padding: 5px;
+}
+#parent li:hover {
+	border: 1px solid black;
+	cursor: pointer;
+}
+p {
+	margin-top: 5px;
+}
